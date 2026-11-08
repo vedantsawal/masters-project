@@ -1,0 +1,59 @@
+candidate_id,accept_sample,reason
+C001,N,Only primary indicator is localhost loopback
+C002,Y,Contains validated malicious payload download URL and remote IPv4
+C003,Y,Contains validated payload and execution URLs
+C004,Y,Contains validated payload download URL
+C005,N,Primary URLs are documentation/reference links only
+C006,N,Only documentation/reference URLs
+C007,Y,Contains validated payload retrieval URL and remote IPv4
+C008,N,Indicators occur only in examples and reference documentation
+C009,Y,Contains validated payload retrieval URL and associated private IPv4 endpoint
+C010,N,No primary literal URL or IPv4 indicators
+C011,Y,Contains operational DownloadString endpoint
+C012,N,No primary literal URL or IPv4 indicators
+C013,Y,Contains operational DownloadString endpoint
+C014,N,No primary literal URL or IPv4 indicators
+C015,Y,Contains operational DownloadString endpoint
+C016,Y,Contains operational remote TCP endpoint
+C017,N,No primary literal URL or IPv4 indicators
+C018,N,Only primary URL is a dynamic unresolved template
+C019,Y,Contains operational onion download endpoint
+C020,?,Needs wider context before classification
+C021,N,Only XAML namespace URLs
+C022,Y,Contains operational DownloadString endpoint
+C023,N,Indicators occur only in examples and reference links
+C024,N,Only primary indicator is localhost loopback
+C025,Y,Contains Meterpreter reverse HTTPS Lhost
+C026,Y,Contains operational remote endpoint constructed with username
+C027,Y,Contains multiple direct payload download URLs
+C028,N,Only training and documentation references
+C029,Y,Contains operational DownloadString endpoint
+C030,Y,Contains direct executable download endpoint
+C031,N,Only documentation/reference URL
+C032,N,Benign website URL
+C033,Y,Contains multiple operational malware download endpoints
+C034,N,Only legitimate AnyDesk vendor distribution URL
+C035,N,No primary literal URL or IPv4 indicators
+C036,N,Only author/project/profile references
+C037,Y,Contains operational DownloadString endpoint
+C038,N,Only dual-use public activation-script sources
+C039,Y,Contains operational DownloadString endpoint
+C040,N,Only project/profile/reference URLs
+C041,N,No primary literal URL or IPv4 indicators
+C042,Y,Contains operational remote download endpoint
+C043,Y,Contains operational remote TCP endpoint
+C044,N,Only documentation/project references
+C045,N,False-positive version plus project/license references
+C046,Y,Contains operational DownloadString endpoint
+C047,Y,Contains operational onion download endpoint
+C048,Y,Contains operational DownloadString endpoint
+C049,Y,Contains operational DownloadString endpoint
+C050,?,Needs wider context to confirm whether configured IP is actually used as C2
+C051,Y,Contains operational DownloadString endpoint
+C052,Y,Contains operational DownloadString endpoint
+C053,N,Only documentation/project references
+C054,N,Only primary indicator is a dynamic unresolved URL template
+C055,N,Valid indicators but excluded as near-duplicate of already accepted C027
+C056,Y,Contains direct executable payload download
+C057,Y,Contains operational DownloadString endpoint
+C058,Y,Contains direct executable payload download followed by execution

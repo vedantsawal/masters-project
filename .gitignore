@@ -1,0 +1,61 @@
+# ------------------------------------------------------------
+# Python
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ------------------------------------------------------------
+# Environments
+# ------------------------------------------------------------
+envs/
+venv/
+.venv/
+conda-env/
+environment/
+
+# Environment metadata files created intentionally elsewhere
+# are allowed; only full environments should be ignored.
+
+# ------------------------------------------------------------
+# Model / package caches
+# ------------------------------------------------------------
+.cache/
+cache/
+huggingface/
+hf-cache/
+transformers-cache/
+models/
+checkpoints/
+*.safetensors
+*.bin
+
+# ------------------------------------------------------------
+# Raw malicious datasets
+# Do NOT redistribute malware samples through this repository.
+# ------------------------------------------------------------
+data/Malicious-PowerShell-Dataset/
+step5/data/attacked_samples/
+
+# ------------------------------------------------------------
+# Temporary files
+# ------------------------------------------------------------
+*.tmp
+*.temp
+*.swp
+.DS_Store
+
+# ------------------------------------------------------------
+# Slurm transient logs
+# Keep experiment results, but ignore generic job noise.
+# ------------------------------------------------------------
+slurm-*.out
+slurm-*.err
+
+# ------------------------------------------------------------
+# IDE
+# ------------------------------------------------------------
+.vscode/
+.idea/

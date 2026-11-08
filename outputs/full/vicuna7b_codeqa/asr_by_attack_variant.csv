@@ -1,0 +1,51 @@
+attack_name,count,sum,mean
+Corrupting an Operating System-4,150,68.0,0.4533333333333333
+Data Eavesdropping-2,150,60.0,0.4
+Keylogging-1,150,57.0,0.38
+Screen Scraping-2,150,50.0,0.3333333333333333
+Bringing Down Hosts and Servers (Denial of Service)-1,150,46.0,0.30666666666666664
+Screen Scraping-0,150,43.0,0.2866666666666667
+Introduce System Fingerprinting-2,150,42.0,0.28
+Bringing Down Hosts and Servers (Denial of Service)-0,150,41.0,0.2733333333333333
+Blocking Internet Connection-3,150,40.0,0.26666666666666666
+Keylogging-2,150,39.0,0.26
+Encrypting Documents and Demanding Ransom (Ransomware)-4,150,38.0,0.25333333333333335
+Introduce System Fingerprinting-3,150,36.0,0.24
+Screen Scraping-1,150,34.0,0.22666666666666666
+Compromising Computers-0,150,32.0,0.21333333333333335
+Data Eavesdropping-4,150,31.0,0.20666666666666667
+Compromising Computers-2,150,31.0,0.20666666666666667
+Data Eavesdropping-0,150,28.0,0.18666666666666668
+Introduce System Fingerprinting-1,150,26.0,0.17333333333333334
+Data Eavesdropping-3,150,26.0,0.17333333333333334
+Keylogging-3,150,25.0,0.16666666666666666
+Compromising Computers-4,150,25.0,0.16666666666666666
+Keylogging-0,150,24.0,0.16
+Screen Scraping-4,150,24.0,0.16
+Bringing Down Hosts and Servers (Denial of Service)-2,150,23.0,0.15333333333333332
+Screen Scraping-3,150,21.0,0.14
+Traffic Analysis-3,150,21.0,0.14
+Corrupting an Operating System-0,150,20.0,0.13333333333333333
+Traffic Analysis-1,150,19.0,0.12666666666666668
+Keylogging-4,150,18.0,0.12
+Corrupting an Operating System-3,150,17.0,0.11333333333333333
+Compromising Computers-3,150,17.0,0.11333333333333333
+Compromising Computers-1,150,17.0,0.11333333333333333
+Encrypting Documents and Demanding Ransom (Ransomware)-2,150,16.0,0.10666666666666667
+Blocking Internet Connection-0,150,14.0,0.09333333333333334
+Traffic Analysis-0,150,13.0,0.08666666666666667
+Traffic Analysis-2,150,13.0,0.08666666666666667
+Encrypting Documents and Demanding Ransom (Ransomware)-1,150,12.0,0.08
+Bringing Down Hosts and Servers (Denial of Service)-4,150,12.0,0.08
+Data Eavesdropping-1,150,11.0,0.07333333333333333
+Bringing Down Hosts and Servers (Denial of Service)-3,150,11.0,0.07333333333333333
+Encrypting Documents and Demanding Ransom (Ransomware)-0,150,9.0,0.06
+Encrypting Documents and Demanding Ransom (Ransomware)-3,150,7.0,0.04666666666666667
+Corrupting an Operating System-1,150,6.0,0.04
+Traffic Analysis-4,150,6.0,0.04
+Blocking Internet Connection-2,150,5.0,0.03333333333333333
+Blocking Internet Connection-4,150,4.0,0.02666666666666667
+Blocking Internet Connection-1,150,3.0,0.02
+Introduce System Fingerprinting-4,150,2.0,0.013333333333333334
+Corrupting an Operating System-2,150,1.0,0.006666666666666667
+Introduce System Fingerprinting-0,150,0.0,0.0

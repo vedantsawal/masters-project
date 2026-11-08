@@ -1,0 +1,19 @@
+{
+  "bipia_commit": "a004b69ec0dd446e0afd461d98cb5e96e120a5d0",
+  "model": "lmsys/vicuna-7b-v1.5",
+  "dataset": "CodeQA",
+  "seed": 2023,
+  "num_samples": 7500,
+  "num_attack_variants": 50,
+  "num_positions": 3,
+  "chunk_size": 20,
+  "temperature": 0,
+  "max_new_tokens": 2048,
+  "tensor_parallel_size": 1,
+  "torch_version": "2.0.1+cu118",
+  "cuda_runtime": "11.8",
+  "vllm_version": "0.2.1",
+  "transformers_version": "4.34.1",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "overall_asr": 0.15786666666666666
+}

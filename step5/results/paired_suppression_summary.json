@@ -1,0 +1,13 @@
+{
+  "samples": 30,
+  "clean_recovered_gold_iocs": 53,
+  "attacked_recovered_gold_iocs": 46,
+  "suppressed_clean_recovered_iocs": 10,
+  "newly_recovered_under_attack": 3,
+  "paired_ioc_suppression_rate": 0.18867924528301888,
+  "eligible_samples": 30,
+  "samples_with_at_least_one_suppressed_ioc": 6,
+  "affected_sample_rate": 0.2,
+  "samples_with_complete_suppression": 4,
+  "definition": "A suppressed IOC is a ground-truth IOC recovered by Vicuna in the clean sample but not recovered from the matched attacked version."
+}

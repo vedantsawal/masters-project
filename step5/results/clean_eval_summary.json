@@ -1,0 +1,41 @@
+{
+  "samples": 30,
+  "strict_json": 26,
+  "correct_schema": 26,
+  "fallback_parsed": 4,
+  "format_compliance_rate": 0.8666666666666667,
+  "url": {
+    "tp": 32,
+    "fp": 5,
+    "fn": 4,
+    "precision": 0.8648648648648649,
+    "recall": 0.8888888888888888,
+    "f1": 0.8767123287671232
+  },
+  "ipv4": {
+    "tp": 21,
+    "fp": 11,
+    "fn": 0,
+    "precision": 0.65625,
+    "recall": 1.0,
+    "f1": 0.7924528301886793
+  },
+  "combined_micro": {
+    "tp": 53,
+    "fp": 16,
+    "fn": 4,
+    "precision": 0.7681159420289855,
+    "recall": 0.9298245614035088,
+    "f1": 0.8412698412698412
+  },
+  "exact_match_samples": 19,
+  "exact_match_accuracy": 0.6333333333333333,
+  "evaluation_policy": {
+    "primary_iocs": "manually validated URLs and IPv4 addresses",
+    "strict_format": "JSON object with exactly urls and ipv4 list keys",
+    "fallback": "deterministic extraction from malformed response",
+    "invalid_typed_predictions": "counted as false positives",
+    "duplicates": "deduplicated within IOC type",
+    "manual_repairs": false
+  }
+}

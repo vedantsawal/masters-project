@@ -1,0 +1,15 @@
+Dataset:
+Fa2y/Malicious-PowerShell-Dataset
+
+Repository:
+https://github.com/Fa2y/Malicious-PowerShell-Dataset
+
+Pinned commit:
+69387cd626db0dadbe7c4ef1c700564bc54fabe0
+
+Local working dataset used at NERSC:
+/pscratch/sd/v/vinay/masters-project/data/Malicious-PowerShell-Dataset
+
+Raw malware samples are intentionally NOT redistributed in this repository.
+
+Reproduction should clone the upstream repository and checkout the pinned commit.

@@ -1,0 +1,125 @@
+candidate_id,indicator_type,normalized_value,keep,notes
+C001,ipv4,127.0.0.1,N,Loopback address; not a meaningful external IOC
+C002,ipv4,93.174.94.135,Y,Remote host used for payload download
+C002,url,http://93.174.94.135/~kali/ketty.exe,Y,Direct payload download URL
+C003,url,http://doit.atspace.tv/404.php?Join,Y,Used by downloadString in execution flow
+C003,url,https://docs.google.com/uc?authuser=0&id=0B4PrpiBCQjnONGpZVnN2TVVkbFk&export=download,Y,Specific URL used to retrieve System-Update.exe
+C004,url,https://www.dropbox.com/s/z8fk603cybfvpmc/default.aa?dl=1,Y,Specific URL used by DownloadData to retrieve payload
+C005,url,https://github.com/samratashok/ADModule,N,Reference link in comments
+C005,url,https://github.com/samratashok/nishang,N,Reference link in comments
+C005,url,https://github.com/samratashok/nishang/pull/65,N,Reference link in comments
+C005,url,https://labs.mwrinfosecurity.com/blog/trust-years-to-earn-seconds-to-break/,N,Reference link in comments
+C006,url,http://obscuresecurity.blogspot.com,N,Documentation/reference link in LINK section
+C006,url,http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html,N,W3C HTTP documentation reference
+C007,ipv4,187.177.151.80,Y,Remote host used by DownloadString before execution
+C007,url,http://187.177.151.80:12345/index.asp,Y,Downloaded content is decoded and executed with IEX
+C008,ipv4,192.168.0.1,N,Example address in documentation
+C008,ipv4,192.168.0.254,N,Example address in documentation
+C008,ipv4,192.168.10.254,N,Example address in documentation
+C008,url,http://blogs.technet.com/b/heyscriptingguy/archive/2012/07/02/use-powershell-for-network-host-and-port-discovery-sweeps.aspx,N,Documentation/reference link
+C008,url,http://www.truesec.com,N,Reference link
+C008,url,https://github.com/samratashok/nishang,N,Project/reference link
+C009,ipv4,172.16.131.137,Y,Private address but directly used as malicious DownloadString endpoint
+C009,url,http://172.16.131.137:8080/index.asp,Y,Downloaded content is decoded and executed with IEX
+C011,ipv4,192.168.3.12,Y,Operational endpoint used by DownloadString before IEX
+C011,url,http://192.168.3.12:8081/index.asp,Y,Downloaded content is decoded and executed
+C013,ipv4,192.168.13.43,Y,Operational endpoint used by DownloadString before IEX
+C013,url,http://192.168.13.43:8080/index.asp,Y,Downloaded content is decoded and executed
+C015,url,https://mail.microsoft-invites.com/index.asp,Y,Operational DownloadString endpoint followed by IEX
+C016,ipv4,161.35.124.119,Y,Remote TCPClient endpoint used by the script
+C018,url,https://$d/x?u=$u&is=$is&lv=$lv&rv=$v,N,Dynamic URL template with unresolved hostname and parameters
+C019,ipv4,8.8.8.8,N,Public DNS resolver used for nslookup
+C019,url,http://powerwormjqj42hu.onion/get.php?s=setup&mom=14C6EFBB-F19D-DC11-83A7-001B38A0DF85&uid=,Y,Operational onion endpoint used by downloadString
+C021,url,http://schemas.microsoft.com/winfx/2006/xaml,N,XAML namespace identifier
+C021,url,http://schemas.microsoft.com/winfx/2006/xaml/presentation,N,XAML namespace identifier
+C022,ipv4,192.168.8.56,Y,Operational endpoint used by DownloadString before IEX
+C022,url,http://192.168.8.56:5555/index.asp,Y,Downloaded content is decoded and executed
+C023,ipv4,192.168.254.1,N,Example address in documentation
+C023,url,http://www.labofapenetrationtester.com/2015/05/week-of-powershell-shells-day-3.html,N,Reference documentation link
+C023,url,https://github.com/samratashok/nishang,N,Project reference link
+C023,url,https://github.com/subTee/PoshRat,N,Project reference link
+C024,ipv4,127.0.0.1,N,Loopback address not an external IOC
+C025,ipv4,198.56.248.117,Y,Meterpreter reverse HTTPS Lhost
+C025,url,https://raw.githubusercontent.com/mattifestation/PowerSploit/master/CodeExecution/Invoke--Shellcode.ps1,N,Dual-use PowerSploit source rather than sample-specific malicious infrastructure
+C026,url,http://www.bcbsarizona.org/s2.txt?u=,Y,Operational remote endpoint constructed with local username
+C027,url,https://web.archive.org/web/20230315194218/https:/github.com/witnessstrong/OneDriveUpdater/raw/main/OneDriveStandaloneUpdater.exe,Y,Direct executable download
+C027,url,https://web.archive.org/web/20230315194218/https:/github.com/witnessstrong/OneDriveUpdater/raw/main/install.ps1,Y,Direct script download followed by execution
+C027,url,https://web.archive.org/web/20230315194218/https:/github.com/witnessstrong/OneDriveUpdater/raw/main/version.dll,Y,Direct DLL download
+C027,url,https://web.archive.org/web/20230315194218/https:/github.com/witnessstrong/OneDriveUpdater/raw/main/verslon.dll,Y,Direct DLL download
+C028,url,http://www.securitytube-training.com/online-courses/powershell-for-pentesters/,N,Training reference
+C028,url,https://blogs.technet.microsoft.com/heyscriptingguy/2012/05/09/use-powershell-to-easily-create-new-registry-keys/,N,Documentation reference
+C028,url,https://technet.microsoft.com/es-es/library/ee176852.aspx,N,Documentation reference
+C029,ipv4,192.168.0.40,Y,Operational endpoint used by DownloadString before IEX
+C029,url,http://192.168.0.40:443/index.asp,Y,Downloaded content is decoded and executed
+C030,ipv4,104.248.91.138,Y,Remote payload host
+C030,url,http://104.248.91.138:8080/svchost.exe,Y,Direct executable payload URL
+C031,url,https://o365reports.com/2019/12/23/export-office-365-users-logon-history-report/,N,Documentation/reference URL
+C032,url,https://www.epic.com/,N,Benign website opened in Chrome
+C033,ipv4,34.105.85.231,Y,Remote host used for malware component downloads
+C033,url,http://34.105.85.231/New/Avast.txt,Y,Operational script download endpoint
+C033,url,http://34.105.85.231/New/Killd.txt,Y,Operational script download endpoint
+C033,url,http://34.105.85.231/New/Nod.txt,Y,Operational script download endpoint
+C033,url,http://microsoft.soundcast.me/Run/SecurityHealth.exe,Y,Operational executable download URL
+C033,url,http://microsoft.soundcast.me/Run/SecurityHealth.exe.manifest,Y,Operational manifest download URL
+C033,url,http://microsoft.soundcast.me/Run/task.txt,Y,Operational script download URL
+C034,url,http://download.anydesk.com/AnyDesk.exe,N,Legitimate vendor distribution URL
+C036,url,https://bartblaze.blogspot.com/2017/06/display-color-calibration-tool-dccw-and.html,N,Reference link
+C036,url,https://btpssecpack.osbornepro.com,N,Author/project reference
+C036,url,https://github.com/tobor88,N,Author/project reference
+C036,url,https://gitlab.com/tobor88,N,Author/project reference
+C036,url,https://osbornepro.com,N,Author reference
+C036,url,https://writeups.osbornepro.com,N,Author/reference site
+C036,url,https://www.credly.com/users/roberthosborne/badges,N,Profile reference
+C036,url,https://www.hackthebox.eu/profile/52286,N,Profile reference
+C036,url,https://www.linkedin.com/in/roberthosborne/,N,Profile reference
+C036,url,https://www.powershellgallery.com/profiles/tobor,N,Profile reference
+C037,ipv4,192.168.1.11,Y,Operational DownloadString endpoint
+C037,url,http://192.168.1.11:8080/index.asp,Y,Downloaded content is decoded and executed
+C038,url,https://gitlab.com/massgrave/microsoft-activation-scripts/-/raw/master/MAS/All-In-One-Version/MAS_AIO.cmd,N,Dual-use public project source
+C038,url,https://raw.githubusercontent.com/massgravel/Microsoft-Activation-Scripts/master/MAS/All-In-One-Version/MAS_AIO.cmd,N,Dual-use public project source
+C039,ipv4,52.39.227.108,Y,Operational remote host used by DownloadString
+C039,url,https://52.39.227.108:443/index.asp,Y,Downloaded content is executed with IEX
+C040,url,https://btpssecpack.osbornepro.com,N,Reference link
+C040,url,https://encrypit.osbornepro.com,N,Reference link
+C040,url,https://github.com/OsbornePro,N,Project reference
+C040,url,https://github.com/tobor88,N,Project reference
+C040,url,https://gitlab.com/tobor88,N,Project reference
+C040,url,https://osbornepro.com,N,Reference link
+C040,url,https://writeups.osbornepro.com,N,Reference link
+C040,url,https://www.7-zip.org/download.html,N,Legitimate software documentation URL
+C040,url,https://www.credly.com/users/roberthosborne/badges,N,Profile reference
+C040,url,https://www.hackthebox.eu/profile/52286,N,Profile reference
+C040,url,https://www.linkedin.com/in/roberthosborne/,N,Profile reference
+C040,url,https://www.powershellgallery.com/profiles/tobor,N,Profile reference
+C042,ipv4,162.253.133.189,Y,Remote endpoint used to download data
+C042,url,http://162.253.133.189:443,Y,Operational C2/download base URL
+C043,ipv4,45.82.71.119,Y,Remote TCPClient destination
+C044,url,http://www.labofapenetrationtester.com/2013/01/quick-post-check-if-your-payload-is.html,N,Reference link
+C044,url,https://github.com/rapid7/metasploit-framework/blob/master/modules/post/windows/gather/checkvm.rb,N,Reference source
+C044,url,https://github.com/samratashok/nishang,N,Project reference
+C045,ipv4,3.0.0.0,N,False positive caused by module version number
+C045,url,http://www.apache.org/licenses/LICENSE-2.0.html,N,License URL
+C045,url,https://github.com/PowerShellMafia/PowerSploit,N,Project reference
+C046,ipv4,192.168.2.106,Y,Operational DownloadString endpoint
+C046,url,http://192.168.2.106:8080/index.asp,Y,Downloaded content is decoded and executed
+C047,ipv4,8.8.8.8,N,Public DNS resolver used for nslookup
+C047,url,http://powerwormjqj42hu.onion/get.php?s=setup&uid=,Y,Operational onion download endpoint
+C048,ipv4,138.121.170.12,Y,Operational DownloadString endpoint
+C048,url,http://138.121.170.12:3135/index.asp,Y,Downloaded content is decoded and executed
+C049,ipv4,192.168.0.10,Y,Operational DownloadString endpoint
+C049,url,http://192.168.0.10:8080/index.asp,Y,Downloaded content is decoded and executed
+C051,ipv4,192.168.0.101,Y,Operational DownloadString endpoint
+C051,url,http://192.168.0.101:8080/index.asp,Y,Downloaded content is decoded and executed
+C052,ipv4,197.85.191.186,Y,Operational DownloadString endpoint
+C052,url,http://197.85.191.186:443/index.asp,Y,Downloaded content is decoded and executed
+C053,url,http://labofapenetrationtester.blogspot.com/,N,Documentation/reference link
+C053,url,https://github.com/samratashok/nishang,N,Project/reference link
+C054,url,http://arrowlchat.com/api/v1/$($guid,N,Dynamic URL template with unresolved path variable
+C055,url,https://web.archive.org/web/20230315194218/https://github.com/witnessstrong/OneDriveUpdater/raw/main/OneDriveStandaloneUpdater.exe,Y,Direct executable download but sample excluded as duplicate
+C055,url,https://web.archive.org/web/20230315194218/https://github.com/witnessstrong/OneDriveUpdater/raw/main/install.ps1,Y,Direct script download but sample excluded as duplicate
+C055,url,https://web.archive.org/web/20230315194218/https://github.com/witnessstrong/OneDriveUpdater/raw/main/version.dll,Y,Direct DLL download but sample excluded as duplicate
+C055,url,https://web.archive.org/web/20230315194218/https://github.com/witnessstrong/OneDriveUpdater/raw/main/verslon.dll,Y,Direct DLL download but sample excluded as duplicate
+C056,url,https://transfer.sh/get/ffP3dc/CrocTech.exe,Y,Direct executable payload download
+C057,ipv4,192.168.1.18,Y,Operational DownloadString endpoint
+C057,url,http://192.168.1.18:8080/index.asp,Y,Downloaded content is decoded and executed
+C058,url,http://www.wealthandhealthops.com/modules/mod_easyblogquickpost/lawdsijdoef.exe,Y,Downloaded executable is immediately started

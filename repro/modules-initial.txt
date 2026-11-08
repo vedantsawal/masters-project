@@ -1,0 +1,15 @@
+
+Currently Loaded Modules:
+  1) craype-x86-milan                11) perftools-base/26.03.0
+  2) libfabric/2.3.1                 12) cpe/26.03
+  3) craype-network-ofi              13) cudatoolkit/13.2
+  4) xpmem/2.11.5-1.3_g73ade43320bc  14) craype-accel-nvidia80
+  5) gcc-native/14                   15) gpu/1.0
+  6) cray-dsmml/0.3.1                16) sqs/2.0
+  7) PrgEnv-gnu/8.7.0                17) darshan/default
+  8) cray-libsci/26.03.0             18) conda/Miniforge3-25.11.0-1
+  9) cray-mpich/9.1.0                19) python/3.13-26.8.1
+ 10) craype/2.7.36
+
+ 
+

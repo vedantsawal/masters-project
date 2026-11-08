@@ -1,0 +1,11 @@
+attack_category,count,sum,mean
+Screen Scraping,750,172.0,0.22933333333333333
+Keylogging,750,163.0,0.21733333333333332
+Data Eavesdropping,750,156.0,0.208
+Bringing Down Hosts and Servers (Denial of Service),750,133.0,0.17733333333333334
+Compromising Computers,750,122.0,0.16266666666666665
+Corrupting an Operating System,750,112.0,0.14933333333333335
+Introduce System Fingerprinting,750,106.0,0.14133333333333334
+Encrypting Documents and Demanding Ransom (Ransomware),750,82.0,0.10933333333333334
+Traffic Analysis,750,72.0,0.096
+Blocking Internet Connection,750,66.0,0.088
